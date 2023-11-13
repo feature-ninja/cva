@@ -1,0 +1,23 @@
+{
+    "name": "feature-ninja/cva",
+    "description": "class variance authority implementation in php",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^10.4",
+        "symfony/var-dumper": "^6.3",
+        "phpstan/phpstan": "^1.10"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "FeatureNinja\\Cva\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Roj Vroemen",
+            "email": "roj@feature.ninja"
+        }
+    ],
+    "minimum-stability": "stable"
+}
