@@ -1,3 +1,12 @@
-/vendor
-.phpunit.cache
+.idea
+.php_cs
+.php_cs.cache
+.phpunit.result.cache
+build
 composer.lock
+coverage
+docs
+phpunit.xml
+vendor
+.php-cs-fixer.cache
+

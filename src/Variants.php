@@ -11,8 +11,7 @@ final readonly class Variants
      */
     private function __construct(
         private array $config,
-    )
-    {
+    ) {
     }
 
     /**

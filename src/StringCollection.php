@@ -11,8 +11,7 @@ final readonly class StringCollection
      */
     public function __construct(
         private array $items = [],
-    )
-    {
+    ) {
     }
 
     public function implode(string $separator): string

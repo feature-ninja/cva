@@ -10,8 +10,7 @@ final readonly class Config
         public ?Variants $variants,
         public ?CompoundVariants $compoundVariants,
         public ?DefaultVariants $defaultVariants,
-    )
-    {
+    ) {
     }
 
     /**

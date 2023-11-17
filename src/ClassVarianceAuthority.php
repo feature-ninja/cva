@@ -9,8 +9,7 @@ final readonly class ClassVarianceAuthority
     public function __construct(
         public ClassNames $base,
         public Config $config,
-    )
-    {
+    ) {
     }
 
     /**

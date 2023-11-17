@@ -11,8 +11,7 @@ final readonly class CompoundVariants
      */
     private function __construct(
         private array $config,
-    )
-    {
+    ) {
     }
 
     /**
@@ -30,7 +29,7 @@ final readonly class CompoundVariants
     {
         $classNames = ClassNames::empty();
         foreach ($this->config as $compoundVariant) {
-            if (!$this->matches($props, $compoundVariant)) {
+            if (! $this->matches($props, $compoundVariant)) {
                 continue;
             }
 

@@ -8,8 +8,7 @@ final readonly class ClassNames
 {
     private function __construct(
         private StringCollection $items = new StringCollection(),
-    )
-    {
+    ) {
     }
 
     /**
