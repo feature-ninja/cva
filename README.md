@@ -1,7 +1,7 @@
 # cva
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/feature-ninja/cva.svg?style=flat-square)](https://packagist.org/packages/feature-ninja/cva)
-[![Tests](https://img.shields.io/github/actions/workflow/status/feature-ninja/cva/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/feature-ninja/cva/actions/workflows/run-tests.yml)
+[![Tests](https://img.shields.io/github/actions/workflow/status/feature-ninja/cva/run-phpunit.yml?branch=main&label=tests&style=flat-square)](https://github.com/feature-ninja/cva/actions/workflows/run-phpunit.yml)
 [![Total Downloads](https://img.shields.io/packagist/dt/feature-ninja/cva.svg?style=flat-square)](https://packagist.org/packages/feature-ninja/cva)
 
 [Class Variance Authority](https://github.com/joe-bell/cva) implementation in PHP
