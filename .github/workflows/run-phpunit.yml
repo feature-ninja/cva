@@ -1,4 +1,4 @@
-name: Run phpstan
+name: Run phpunit
 
 on: [push, pull_request]
 
