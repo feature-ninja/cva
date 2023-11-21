@@ -7,9 +7,9 @@ namespace FeatureNinja\Cva;
 final readonly class Config
 {
     public function __construct(
-        public ?Variants $variants,
-        public ?CompoundVariants $compoundVariants,
-        public ?DefaultVariants $defaultVariants,
+        public Variants $variants,
+        public CompoundVariants $compoundVariants,
+        public DefaultVariants $defaultVariants,
     ) {
     }
 
@@ -18,21 +18,10 @@ final readonly class Config
      */
     public static function of(array $config): self
     {
-        $variants = $config['variants'] ?? null;
-        if ($variants) {
-            $variants = Variants::of($variants);
-        }
-
-        $compoundVariants = $config['compoundVariants'] ?? null;
-        if ($compoundVariants) {
-            $compoundVariants = CompoundVariants::of($compoundVariants);
-        }
-
-        $defaultVariants = $config['defaultVariants'] ?? null;
-        if ($defaultVariants) {
-            $defaultVariants = DefaultVariants::of($defaultVariants);
-        }
-
-        return new self($variants, $compoundVariants, $defaultVariants);
+        return new self(
+            Variants::of($config['variants'] ?? []),
+            CompoundVariants::of($config['compoundVariants'] ?? []),
+            DefaultVariants::of($config['defaultVariants'] ?? []),
+        );
     }
 }
