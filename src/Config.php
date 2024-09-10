@@ -14,7 +14,11 @@ final readonly class Config
     }
 
     /**
-     * @param array{variants?: array<string, array<string, string|array<int, string>>>, compoundVariants?: array<int, array<string, string>>, defaultVariants?: array<string, string>} $config
+     * @param array{
+     *     variants?: array<string, array<string, string|array<int, string>>>,
+     *     compoundVariants?: array<int, array<string, string>>,
+     *     defaultVariants?: array<string, string>,
+     * } $config
      */
     public static function of(array $config): self
     {
