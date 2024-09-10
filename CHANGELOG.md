@@ -2,6 +2,14 @@
 
 All notable changes to `cva` will be documented in this file.
 
+## 0.2.1 - 2024-09-10
+
+### What's Changed
+
+* Adding `fn/cva` helper function by @rojtjo in https://github.com/feature-ninja/cva/pull/9
+
+**Full Changelog**: https://github.com/feature-ninja/cva/compare/0.2.0...0.2.1
+
 ## 0.2.0 - 2023-11-21
 
 ### What's Changed
