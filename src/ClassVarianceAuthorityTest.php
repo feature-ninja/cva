@@ -4,10 +4,10 @@ declare(strict_types=1);
 
 namespace FeatureNinja\Cva;
 
+use function fn\cva;
+
 use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;
-
-use function fn\cva;
 
 final class ClassVarianceAuthorityTest extends TestCase
 {
