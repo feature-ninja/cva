@@ -22,7 +22,7 @@
         <report>
             <html outputDirectory="build/coverage"/>
             <text outputFile="build/coverage.txt"/>
-            <clover outputFile="build/logs/clover.xml"/>
+            <clover outputFile="build/coverage.xml"/>
         </report>
     </coverage>
     <logging>
