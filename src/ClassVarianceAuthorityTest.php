@@ -4,17 +4,17 @@ declare(strict_types=1);
 
 namespace FeatureNinja\Cva;
 
-use PHPUnit\Framework\Attributes\CoversClass;
+use function fn\cva;
+
 use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;
 
-#[CoversClass(ClassVarianceAuthority::class)]
 final class ClassVarianceAuthorityTest extends TestCase
 {
     #[Test]
     public function examples(): void
     {
-        $button = ClassVarianceAuthority::new(
+        $button = cva(
             ['font-semibold', 'border', 'rounded'],
             [
                 'variants' => [

@@ -35,3 +35,12 @@ jobs:
 
       - name: Execute phpunit
         run: vendor/bin/phpunit
+        env:
+          XDEBUG_MODE: coverage
+
+      - name: Upload to Codecov
+        uses: codecov/codecov-action@v2
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          files: ./build/coverage.xml
+          verbose: true
