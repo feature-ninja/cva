@@ -7,12 +7,14 @@ namespace FeatureNinja\Cva;
 use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;
 
+use function fn\cva;
+
 final class ClassVarianceAuthorityTest extends TestCase
 {
     #[Test]
     public function examples(): void
     {
-        $button = ClassVarianceAuthority::new(
+        $button = cva(
             ['font-semibold', 'border', 'rounded'],
             [
                 'variants' => [
