@@ -4,11 +4,9 @@ declare(strict_types=1);
 
 namespace FeatureNinja\Cva;
 
-use PHPUnit\Framework\Attributes\CoversClass;
 use PHPUnit\Framework\Attributes\Test;
 use PHPUnit\Framework\TestCase;
 
-#[CoversClass(ClassVarianceAuthority::class)]
 final class ClassVarianceAuthorityTest extends TestCase
 {
     #[Test]
