@@ -35,9 +35,12 @@ final readonly class ClassVarianceAuthority
     {
         $props = $this->config->defaultVariants->merge($props);
 
+        $additionalClassNames = ClassNames::of($props['class'] ?? $props['className'] ?? '');
+
         return $this->base
             ->concat($this->config->variants->resolve($props))
             ->concat($this->config->compoundVariants->resolve($props))
+            ->concat($additionalClassNames)
             ->toString();
     }
 }
