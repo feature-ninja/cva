@@ -2,6 +2,15 @@
 
 All notable changes to `cva` will be documented in this file.
 
+## 0.3.0 - 2024-09-25
+
+### What's Changed
+
+* Improve code coverage by @rojtjo in https://github.com/feature-ninja/cva/pull/10
+* Allow passing additional class names by @rojtjo in https://github.com/feature-ninja/cva/pull/11
+
+**Full Changelog**: https://github.com/feature-ninja/cva/compare/0.2.1...0.3.0
+
 ## 0.2.1 - 2024-09-10
 
 ### What's Changed
