@@ -48,7 +48,7 @@ $button = ClassVarianceAuthority::new(
 
 # Or by using the cva helper function
 
-$button = cva(
+$button = fn\cva(
     ['font-semibold', 'border', 'rounded'],
     [
         'variants' => [
