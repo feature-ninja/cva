@@ -19,7 +19,7 @@ final readonly class StringCollection
         return implode($separator, $this->items);
     }
 
-    public function filter(callable $callback = null): self
+    public function filter(?callable $callback = null): self
     {
         return new self(array_filter($this->items, $callback));
     }
