@@ -2,6 +2,25 @@
 
 All notable changes to `cva` will be documented in this file.
 
+## 0.3.1 - 2025-07-30
+
+### What's Changed
+
+* chores: Update the readme to include cva helper function usage by @Aboubakary833 in https://github.com/feature-ninja/cva/pull/12
+* Bump dependabot/fetch-metadata from 1.6.0 to 2.1.0 by @dependabot[bot] in https://github.com/feature-ninja/cva/pull/8
+* Bump dependabot/fetch-metadata from 2.1.0 to 2.2.0 by @dependabot[bot] in https://github.com/feature-ninja/cva/pull/14
+* Bump codecov/codecov-action from 2 to 5 by @dependabot[bot] in https://github.com/feature-ninja/cva/pull/13
+* Bump dependabot/fetch-metadata from 2.2.0 to 2.3.0 by @dependabot[bot] in https://github.com/feature-ninja/cva/pull/15
+* Bump dependabot/fetch-metadata from 2.3.0 to 2.4.0 by @dependabot[bot] in https://github.com/feature-ninja/cva/pull/16
+* Bump stefanzweifel/git-auto-commit-action from 5 to 6 by @dependabot[bot] in https://github.com/feature-ninja/cva/pull/17
+* Mark parameter as `nullable` by @rojtjo in https://github.com/feature-ninja/cva/pull/18
+
+### New Contributors
+
+* @Aboubakary833 made their first contribution in https://github.com/feature-ninja/cva/pull/12
+
+**Full Changelog**: https://github.com/feature-ninja/cva/compare/0.3.0...0.3.1
+
 ## 0.3.0 - 2024-09-25
 
 ### What's Changed
